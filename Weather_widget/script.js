@@ -1,0 +1,6 @@
+let word = "butterfly" 
+console.log(word.slice(0,6))      //"butter"
+console.log(word.slice(6))    // "fly"
+console.log(word.slice(3,6))     //"ter"
+console.log(word.slice(-1))      //"y"
+console.log(word.slice(0))       //"b"
