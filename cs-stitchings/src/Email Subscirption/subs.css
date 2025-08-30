@@ -1,0 +1,100 @@
+/* Reset & Fonts */
+* {
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Italiana', serif;
+  background: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* LEFT SECTION */
+.left {
+  flex: 1;
+  background: #d9d9d9;
+  position: relative;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.flower-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  object-fit: cover;
+}
+
+.left h1 {
+  font-size: 3rem;
+  position: relative;
+  z-index: 2;
+  margin-top: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* RIGHT SECTION */
+.right {
+  flex: 1;
+  background: white;
+  padding: 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right p {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 400px;
+  margin-bottom: 2rem;
+}
+
+.signup-form {
+  border: 1px solid #000;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+}
+
+.signup-form input {
+  border: 1px solid #000;
+  padding: 0.5rem;
+  font-family: 'Italiana', serif;
+  font-size: 1rem;
+}
+
+.signup-form button {
+  border: 1px solid #000;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 10px;
+  font-family: 'Italiana', serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #FFAED3;
+}
