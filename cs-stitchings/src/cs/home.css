@@ -1,0 +1,63 @@
+#navigation {
+  background-color: rgba(255, 174, 211, 0.5);
+  text-align: center;
+  padding: 0;   /* don’t add extra padding */
+}
+#navigation h1 {
+  font-size: 50px;     /* smaller text, if you want */
+  color: #ffffff;
+  line-height: 1.2;    /* instead of 200% */
+  margin: 0;           /* remove default h1 margin */
+  padding: 5px 0;      /* control thickness manually */
+}
+
+body{
+    background-image: url(/cs-stitchings/src/cs/Assets/girl.png);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center; /* this is what centers them horizontally */
+}
+
+.navbar a {
+  font-size: large;
+  text-decoration: none;  /* removes underline */
+  color: white;           /* text color */
+  padding: 10px 20px;     /* gives clickable area */
+  display: block;         /* makes padding work fully */
+}
+
+#seal {
+  position: absolute;   /* allows free placement */
+  bottom: 1%;            /* adjust as needed */
+  left: 42%;           /* adjust as needed */
+  z-index: 10;          /* makes sure it's above the white box */
+}
+#rectangle{
+  background-color: #F3EFF9;
+  padding: 3%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#Italianno{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#CormorantUp{
+  font-family: "Cormorant Upright", serif;
+  font-weight: 400;
+  font-style: normal;
+}
