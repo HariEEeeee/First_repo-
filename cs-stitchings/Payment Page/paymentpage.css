@@ -1,0 +1,127 @@
+#navigation {
+  background-color: rgb(255, 174, 210);
+  text-align: center;
+  padding: 0;   /* don’t add extra padding */
+  display: flex;
+  align-items: center; /* vertically center content */
+  justify-content: center; /* horizontally center content */
+  min-height: 10px; /* set a minimum height for vertical centering */
+}
+h1{
+  font-size:40px;
+}
+body{
+  background-color: dimgrey;
+  margin:0%;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center; /* this is what centers them horizontally */
+}
+.navbar a {
+  font-size: large;
+  text-decoration: none;  /* removes underline */
+  color: rgb(0, 0, 0);           /* text color */
+  padding: 10px 20px;     /* gives clickable area */
+  display: block;         /* makes padding work fully */
+}
+#Italianno{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#CormorantUp{
+  font-family: "Cormorant Upright", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.inline{
+  display: inline-flex;
+}
+
+/* Adjust lotus image aspect ratio */
+#lotus {
+  width: 50px;    /* set a reasonable width */
+  height: auto;    /* maintain aspect ratio */
+  object-fit: contain; /* prevent stretching */
+}
+p{
+  margin: 0%;
+}
+#inline{
+  display: flex;
+}
+
+
+.price-range-container {
+  width: 210px;
+  margin-top: 15px;
+  font-family: "Cormorant Upright", serif;
+}
+
+.slider {
+  position: relative;
+  height: 5px;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.slider .progress {
+  position: absolute;
+  height: 100%;
+  background: #ffaeae; /* earthy brown tone */
+  border-radius: 5px;
+  left: 20%;
+  right: 20%;
+}
+
+.range-input {
+  position: relative;
+}
+
+.range-input input {
+  position: absolute;
+  width: 100%;
+  top: -7px;
+  height: 5px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+}
+
+.range-input input::-webkit-slider-thumb {
+  pointer-events: all;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background: #ffaeae;
+  border: none;
+  -webkit-appearance: none;
+}
+
+.range-input input::-moz-range-thumb {
+  pointer-events: all;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background: #ffaeae;
+  border: none;
+}
+
+.price-values {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+#contents{
+  display: none;
+}
+#contents.show{
+  display: block;
+}

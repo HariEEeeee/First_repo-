@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;   /* centers horizontally */
+    align-items: center;       /* centers vertically */
+    min-height: 100vh;         /* take full height of screen */
+    margin: 0;
+    background-image: url(Assets/Reach\ To\ us.png);
+    background-size: cover;
+    background-position: center;
+}
+#inlineFlex{
+    display:inline-flex;
+    align-items: center;
+    gap: 170px;
+}
+#box{
+    width: 40%;     /* responsive size */
+    display: block;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 30px; 
+    padding-top: 30px;
+    width:fit-content;
+}
+#boxMsg{
+    border: 1px solid white;
+    padding: 8px;  
+    width:fit-content;
+}
+.inputfield{
+    color: aliceblue;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid white;
+    padding: 10px;  
+    width: 89%;
+}
+
+form{
+    size: 10px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; /* space between each item */
+}
+.inputfield::placeholder{
+    color: #ffffff;
+}
+#msgfield{
+    background-color: #ff00735b;
+    color: aliceblue;
+    border: 1px solid;
+    border-image: linear-gradient(to right, #c0c0c0, #ffffff) 1;
+    border-radius: 10px;
+    padding-bottom: 25%;
+}
+#submit{
+    display: block;
+    border-radius: 10px;
+    width: fit-content;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+#h1{
+    font-size: 50px;
+    margin: 0;           /* removes all default spacing */
+    padding: 0;          /* optional, just in case */
+}
+#block{
+    display: flex;
+    flex-direction: column;
+    justify-self:center;
+}

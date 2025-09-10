@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CS Stitchings-Payment Page</title>
+  <link rel="icon" href="Assets/CS stitching-logo.jpg">
+  <link rel="stylesheet" href="paymentpage.css"/>
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Italianno&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navigation">
+        <h1 id="Italianno">CS Stitching</h1>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li id="CormorantUP"><a href="home.html">Home</a></li>
+            <li id="CormorantUP"><a href="#">Wear The Look</a></li>
+            <li id="CormorantUP"><a href="#">Tailor It For Me</a></li>
+            <li id="CormorantUP"><a href="#">Moments Captured</a></li>
+            <li id="CormorantUP"><a href="ourStory.html">Our Story</a></li>
+            <li id="CormorantUP"><a href="">Reach Us</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <div id="dropsideMenu">
+            <button onclick="displayfilter()" id="menu">MENU</button>
+            <!--SECTIONS-->
+                <div id="contents">
+                    <p>Categorize your product</p>
+                    <div class="inline">
+                        <h3>Product Type</h3>
+                        <img id="lotus" src="Assets/Lotus Flower.png" alt="lotus img">
+                    </div>
+                    <div id="flex-fo_inputs">
+                        <div class="inline">
+                            <p>Dresses</p>
+                            <input id="Dresses" type="checkbox">
+                        </div>
+
+                        <div class="inline">
+                            <p>Kurtis</p>
+                            <input id="Kurtis" type="checkbox">
+                        </div>
+
+                        <div class="inline">
+                            <p>Sarees</p>
+                            <input id="Sarees" type="checkbox">
+                        </div>
+                        <br>
+                        <div class="inline">
+                            <p>Tops & Tunics</p>
+                            <input id="Tops_Tunics" type="checkbox">
+                        </div>
+        
+                        <div class="inline">
+                            <p>Bottoms</p>
+                            <input id="Bottoms" type="checkbox">
+                        </div>
+
+                        <br>
+                        <div class="inline">
+                            <p>Co-ords/sets</p>
+                            <input id="Co-ords" type="checkbox">
+                        </div>
+                        <div class="inline">
+                            <p>Blouses</p>
+                            <input id="Blouses" type="checkbox">
+                        </div>
+                        <br>
+                <!--SECTION2-->
+                    <div class="inline">
+                        <h3>Size</h3>
+                        <img id="lotus" src="Assets/Lotus-2.png" alt="lotus img">
+                    </div>
+                    <div id="flex-fo_inputs">
+                        <div class="inline">
+                            <p>M</p>
+                            <input id="Blouses" type="checkbox">
+                        </div>
+
+                        <div class="inline">
+                            <p>L</p>
+                            <input id="Blouses" type="checkbox">
+                        </div>
+
+                        <div class="inline">
+                            <p>XL</p>
+                            <input id="Blouses" type="checkbox">
+                        </div>
+
+                        <div class="inline">
+                            <p>XXL</p>
+                            <input id="Blouses" type="checkbox">
+                        </div>
+
+                        <div class="inline">
+                            <p>S</p>
+                            <input id="Blouses" type="checkbox">
+                        </div>
+
+                        <br>
+                        <div class="inline">
+                            <p>XS</p>
+                            <input id="Blouses" type="checkbox">
+                        </div>
+                        <div class="inline">
+                            <p>3XL</p>
+                            <input id="Blouses" type="checkbox">
+                        </div>
+
+                        <div class="inline">
+                            <p>Custom Size</p>
+                            <input id="Blouses" type="checkbox">
+                        </div>
+                    </div>
+
+                    <!--SECTION4-->
+                        <div class="inline">
+                            <h3>Price range</h3>
+                            <img id="lotus" src="Assets/Lotus-4.png" alt="lotus img">
+                        </div> 
+                        <div id="flex-fo_inputs">
+                            <!--contents goes here-->
+                            <div class="price-range-container">
+                                <div class="slider">
+                                    <div class="progress"></div>
+                                </div>
+                                <div class="range-input">
+                                    <input type="range" class="range-min" min="0" max="5000" value="0" step="100">
+                                    <input type="range" class="range-max" min="0" max="5000" value="2000" step="100">
+                                </div>
+                                <div class="price-values">
+                                    <span>₹<span id="minPrice"></span></span> - 
+                                    <span>₹<span id="maxPrice"></span></span>
+                                </div>
+                            </div>
+                <!--SECTION3-->
+                    <div class="inline">
+                        <h3>Fabric Type</h3>
+                        <img id="lotus" src="Assets/Lotus-3.png" alt="lotus img">
+                    </div>   
+                    <div id="flex-fo_inputs">
+                        <div class="inline">
+                            <p>Cotton</p>
+                            <input id="Cotton" type="checkbox">
+                        </div> 
+                        <div class="inline">
+                                <p>Silk</p>
+                                <input id="Silk" type="checkbox">
+                            </div> 
+                            <div class="inline">
+                                <p>Georgette</p>
+                                <input id="Georgette" type="checkbox">
+                            </div> 
+                            <br>
+                            <div class="inline">
+                                <p>Organza</p>
+                                <input id="Organza" type="checkbox">
+                            </div> 
+                            <div class="inline">
+                                <p>Net</p>
+                                <input id="Net" type="checkbox">
+                            </div> 
+                            <div class="inline">
+                                <p>Linen</p>
+                                <input id="Linen" type="checkbox">
+                            </div> 
+                            <br>
+                            <div class="inline">
+                                <p>Rayon</p>
+                                <input id="Rayon" type="checkbox">
+                            </div>
+                            <div class="inline">
+                                <p>Satin</p>
+                                <input id="Satin" type="checkbox">
+                            </div>
+                            <div class="inline">
+                                <p>Velvet</p>
+                                <input id="Velvet" type="checkbox">
+                            </div>
+                            <br>
+
+                    </div> 
+                    
+
+                </div>
+        </div>
+    </main>
+<script>
+    const rangeMin = document.querySelector(".range-min");
+    const rangeMax = document.querySelector(".range-max");
+    const progress = document.querySelector(".slider .progress");
+    const minPriceDisplay = document.getElementById("minPrice");
+    const maxPriceDisplay = document.getElementById("maxPrice");
+
+    let priceGap = 500;
+
+    function updateSlider() {
+        let minVal = parseInt(rangeMin.value);
+        let maxVal = parseInt(rangeMax.value);
+
+        if (maxVal - minVal < priceGap) {
+        if (event.target.classList.contains("range-min")) {
+            rangeMin.value = maxVal - priceGap;
+        } else {
+            rangeMax.value = minVal + priceGap;
+        }
+        } else {
+        progress.style.left = (rangeMin.value / rangeMin.max) * 100 + "%";
+        progress.style.right = 100 - (rangeMax.value / rangeMax.max) * 100 + "%";
+        minPriceDisplay.textContent = rangeMin.value;
+        maxPriceDisplay.textContent = rangeMax.value;
+        }
+    }
+
+    rangeMin.addEventListener("input", updateSlider);
+    rangeMax.addEventListener("input", updateSlider);
+
+    // initialize
+    updateSlider();
+    let element = document.getElementById("contents")
+    function displayfilter() {
+        element.classList.toggle("show")
+    }
+</script>
+
+</body>
+</html>
